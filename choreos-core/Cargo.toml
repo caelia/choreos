@@ -1,0 +1,16 @@
+[package]
+name = "choreos-core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = "1.15"
+tokio-zmq = "0.10"
+tiny-tokio-actor = "0.3"
+# tokio-file = "0.7"
+tokio-borrow-stdio = "0.1"
+tokio-graceful-shutdown = "0.4"
+tokio-pipe = "0.2"
+
