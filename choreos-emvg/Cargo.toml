@@ -12,5 +12,8 @@ gstreamer-video = "0.17"
 gstreamer-gl = "0.17"
 gstreamer-gl-egl = "0.17"
 gstreamer-gl-x11 = "0.17"
-glutin = { path = "/home/caelia/.cargo/registry/src/github.com-1ecc6299db9ec823/glutin-0.28.0/" }
-glutin_egl_sys = { path = "/home/caelia/.cargo/registry/src/github.com-1ecc6299db9ec823/glutin_egl_sys-0.1.5/" }
+# glutin = { path = "/home/caelia/.cargo/registry/src/github.com-1ecc6299db9ec823/glutin-0.28.0/" }
+glutin = "0.28"
+# glutin_egl_sys = { path = "/home/caelia/.cargo/registry/src/github.com-1ecc6299db9ec823/glutin_egl_sys-0.1.5/" }
+glutin_egl_sys = "0.1.5"
+gl = "0.14"
